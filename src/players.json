@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Kyler Murray",
+        "team": "Arizona Cardinals",
+        "position": "QB"
+    },
+    {
+        "name": "Matt Ryan",
+        "team": "Atlanta Falcons",
+        "position": "QB"
+    },
+    {
+        "name": "Lamar Jackson",
+        "team": "Baltimore Ravens",
+        "position": "QB"
+    },
+    {
+        "name": "Josh Allen",
+        "team": "Buffalo Bills",
+        "position": "QB"
+    },
+    {
+        "name": "Teddy Bridgewater",
+        "team": "Carolina Panthers",
+        "position": "QB"
+    },
+    {
+        "name": "Nick Foles",
+        "team": "Chicago Bears",
+        "position": "QB"
+    },
+    {
+        "name": "Joe Burrow",
+        "team": "Cincinnati Bengals",
+        "position": "QB"
+    },
+    {
+        "name": "Baker Mayfield",
+        "team": "Cleveland Browns",
+        "position": "QB"
+    },
+    {
+        "name": "Ben Dinucci",
+        "team": "Dallas Cowboys",
+        "position": "QB"
+    },
+    {
+        "name": "Drew Lock",
+        "team": "Denver Broncos",
+        "position": "QB"
+    },
+    {
+        "name": "Matthew Stafford",
+        "team": "Detroit Lions",
+        "position": "QB"
+    },
+    {
+        "name": "Aaron Rodgers",
+        "team": "Green Bay Packers",
+        "position": "QB"
+    },
+    {
+        "name": "Deshaun Watson",
+        "team": "Houston Texans",
+        "position": "QB"
+    },
+    {
+        "name": "Philip Rivers",
+        "team": "Indianapolis Colts",
+        "position": "QB"
+    },
+    {
+        "name": "Gardner Minshew",
+        "team": "Jacksonville Jaguars",
+        "position": "QB"
+    },
+    {
+        "name": "Patrick Mahomes",
+        "team": "Kansas City Chiefs",
+        "position": "QB"
+    },
+    {
+        "name": "Derek Carr",
+        "team": "Las Vegas Raiders",
+        "position": "QB"
+    },
+    {
+        "name": "Justin Herbert",
+        "team": "Los Angeles Chargers",
+        "position": "QB"
+    },
+    {
+        "name": "Jared Goff",
+        "team": "Los Angeles Rams",
+        "position": "QB"
+    },
+    {
+        "name": "Tua Tagovailoa",
+        "team": "Miami Dolphins",
+        "position": "QB"
+    },
+    {
+        "name": "Kirk Cousins",
+        "team": "Minnesota Vikings",
+        "position": "QB"
+    },
+    {
+        "name": "Cam Newton",
+        "team": "New England Patriots",
+        "position": "QB"
+    },
+    {
+        "name": "Drew Brees",
+        "team": "New Orleans Saints",
+        "position": "QB"
+    },
+    {
+        "name": "Daniel Jones",
+        "team": "New York Giants",
+        "position": "QB"
+    },
+    {
+        "name": "Sam Darnold",
+        "team": "New York Jets",
+        "position": "QB"
+    },
+    {
+        "name": "Carson Wentz",
+        "team": "Philadelphia Eagles",
+        "position": "QB"
+    },
+    {
+        "name": "Ben Roethlisberger",
+        "team": "Pittsburgh Steelers",
+        "position": "QB"
+    },
+    {
+        "name": "Jimmy Garoppolo",
+        "team": "San Francisco 49ers",
+        "position": "QB"
+    },
+    {
+        "name": "Russell Wilson",
+        "team": "Seattle Seahawks",
+        "position": "QB"
+    },
+    {
+        "name": "Tom Brady",
+        "team": "Tampa Bay Buccaneers",
+        "position": "QB"
+    },
+    {
+        "name": "Ryan Tannehill",
+        "team": "Tennessee Titans",
+        "position": "QB"
+    },
+    {
+        "name": "Kyle Allen",
+        "team": "Washington Football Team",
+        "position": "QB"
+    }
+]
