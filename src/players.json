@@ -40,7 +40,7 @@
         "position": "QB"
     },
     {
-        "name": "Ben Dinucci",
+        "name": "Andy Dalton",
         "team": "Dallas Cowboys",
         "position": "QB"
     },
@@ -158,5 +158,1065 @@
         "name": "Kyle Allen",
         "team": "Washington Football Team",
         "position": "QB"
+    },
+    {
+        "name": "Kenyan Drake",
+        "team": "Arizona Cardinals",
+        "position": "RB"
+    },
+    {
+        "name": "Chase Edmonds",
+        "team": "Arizona Cardinals",
+        "position": "RB"
+    },
+    {
+        "name": "Todd Gurley",
+        "team": "Atlanta Falcons",
+        "position": "RB"
+    },
+    {
+        "name": "Mark Ingram",
+        "team": "Baltimore Ravens",
+        "position": "RB"
+    },
+    {
+        "name": "Devin Singletary",
+        "team": "Buffalo Bills",
+        "position": "RB"
+    },
+    {
+        "name": "Zack Moss",
+        "team": "Buffalo Bills",
+        "position": "RB"
+    },
+    {
+        "name": "Christian McCaffrey",
+        "team": "Carolina Panthers",
+        "position": "RB"
+    },
+    {
+        "name": "David Montgomery",
+        "team": "Chicago Bears",
+        "position": "RB"
+    },
+    {
+        "name": "Joe Mixon",
+        "team": "Cincinnati Bengals",
+        "position": "RB"
+    },
+    {
+        "name": "Giovani Bernard",
+        "team": "Cincinnati Bengals",
+        "position": "RB"
+    },
+    {
+        "name": "Nick Chubb",
+        "team": "Cleveland Browns",
+        "position": "RB"
+    },
+    {
+        "name": "Kareem Hunt",
+        "team": "Cleveland Browns",
+        "position": "RB"
+    },
+    {
+        "name": "Ezekiel Elliott",
+        "team": "Dallas Cowboys",
+        "position": "RB"
+    },
+    {
+        "name": "Tony Pollard",
+        "team": "Dallas Cowboys",
+        "position": "RB"
+    },
+    {
+        "name": "Phillip Lindsay",
+        "team": "Denver Broncos",
+        "position": "RB"
+    },
+    {
+        "name": "Melvin Gordon",
+        "team": "Denver Broncos",
+        "position": "RB"
+    },
+    {
+        "name": "D'Andre Swift",
+        "team": "Detroit Lions",
+        "position": "RB"
+    },
+    {
+        "name": "Kerryon Johnson",
+        "team": "Detroit Lions",
+        "position": "RB"
+    },
+    {
+        "name": "Aaron Jones",
+        "team": "Green Bay Packers",
+        "position": "RB"
+    },
+    {
+        "name": "Jamaal Williams",
+        "team": "Green Bay Packers",
+        "position": "RB"
+    },
+    {
+        "name": "David Johnson",
+        "team": "Houston Texans",
+        "position": "RB"
+    },
+    {
+        "name": "Duke Johnson",
+        "team": "Houston Texans",
+        "position": "RB"
+    },
+    {
+        "name": "Jonathan Taylor",
+        "team": "Indianapolis Colts",
+        "position": "RB"
+    },
+    {
+        "name": "Nyheim Hines",
+        "team": "Indianapolis Colts",
+        "position": "RB"
+    },
+    {
+        "name": "James Robinson",
+        "team": "Jacksonville Jaguars",
+        "position": "RB"
+    },
+    {
+        "name": "Clyde Edwards-Helaire",
+        "team": "Kansas City Chiefs",
+        "position": "RB"
+    },
+    {
+        "name": "Le-Veon Bell",
+        "team": "Kansas City Chiefs",
+        "position": "RB"
+    },
+    {
+        "name": "Josh Jacobs",
+        "team": "Las Vegas Raiders",
+        "position": "RB"
+    },
+    {
+        "name": "Devontae Booker",
+        "team": "Las Vegas Raiders",
+        "position": "RB"
+    },
+    {
+        "name": "Justin Jackson",
+        "team": "Los Angeles Chargers",
+        "position": "RB"
+    },
+    {
+        "name": "Darrell Henderson",
+        "team": "Los Angeles Rams",
+        "position": "RB"
+    },
+    {
+        "name": "Malcolm Brown",
+        "team": "Los Angeles Rams",
+        "position": "RB"
+    },
+    {
+        "name": "Myles Gaskin",
+        "team": "Miami Dolphins",
+        "position": "RB"
+    },
+    {
+        "name": "Matt Breida",
+        "team": "Miami Dolphins",
+        "position": "RB"
+    },
+    {
+        "name": "Dalvin Cook",
+        "team": "Minnesota Vikings",
+        "position": "RB"
+    },
+    {
+        "name": "Damien Harris",
+        "team": "New England Patriots",
+        "position": "RB"
+    },
+    {
+        "name": "Rex Burkhead",
+        "team": "New England Patriots",
+        "position": "RB"
+    },
+    {
+        "name": "Devonta Freeman",
+        "team": "New York Giants",
+        "position": "RB"
+    },
+    {
+        "name": "La'Mical Perine",
+        "team": "New York Jets",
+        "position": "RB"
+    },
+    {
+        "name": "Miles Sanders",
+        "team": "Philadelphia Eagles",
+        "position": "RB"
+    },
+    {
+        "name": "Boston Scott",
+        "team": "Philadelphia Eagles",
+        "position": "RB"
+    },
+    {
+        "name": "James Conner",
+        "team": "Pittsburgh Steelers",
+        "position": "RB"
+    },
+    {
+        "name": "Benny Snell",
+        "team": "Pittsburgh Steelers",
+        "position": "RB"
+    },
+    {
+        "name": "Jerick McKinnon",
+        "team": "San Francisco 49ers",
+        "position": "RB"
+    },
+    {
+        "name": "JaMycal Hasty",
+        "team": "San Francisco 49ers",
+        "position": "RB"
+    },
+    {
+        "name": "Chris Carson",
+        "team": "Seattle Seahawks",
+        "position": "RB"
+    },
+    {
+        "name": "Carlos Hyde",
+        "team": "Seattle Seahawks",
+        "position": "RB"
+    },
+    {
+        "name": "Ronald Jones",
+        "team": "Tampa Bay Buccaneers",
+        "position": "RB"
+    },
+    {
+        "name": "Derrick Henry",
+        "team": "Tennessee Titans",
+        "position": "RB"
+    },
+    {
+        "name": "J.D. McKissic",
+        "team": "Washington Football Team",
+        "position": "RB"
+    },
+    {
+        "name": "DeAndre Hopkins",
+        "team": "Arizona Cardinals",
+        "position": "WR"
+    },
+    {
+        "name": "Christian Kirk",
+        "team": "Arizona Cardinals",
+        "position": "WR"
+    },
+    {
+        "name": "Larry Fitzgerald",
+        "team": "Arizona Cardinals",
+        "position": "WR"
+    },
+    {
+        "name": "Julio Jones",
+        "team": "Atlanta Falcons",
+        "position": "WR"
+    },
+    {
+        "name": "Calvin Ridley",
+        "team": "Atlanta Falcons",
+        "position": "WR"
+    },
+    {
+        "name": "Russell Gage",
+        "team": "Atlanta Falcons",
+        "position": "WR"
+    },
+    {
+        "name": "Marquise Brown",
+        "team": "Baltimore Ravens",
+        "position": "WR"
+    },
+    {
+        "name": "Willie Snead IV",
+        "team": "Baltimore Ravens",
+        "position": "WR"
+    },
+    {
+        "name": "Miles Boykin",
+        "team": "Baltimore Ravens",
+        "position": "WR"
+    },
+    {
+        "name": "Stefon Diggs",
+        "team": "Buffalo Bills",
+        "position": "WR"
+    },
+    {
+        "name": "John Brown",
+        "team": "Buffalo Bills",
+        "position": "WR"
+    },
+    {
+        "name": "Cole Beasley",
+        "team": "Buffalo Bills",
+        "position": "WR"
+    },
+    {
+        "name": "Robby Anderson",
+        "team": "Carolina Panthers",
+        "position": "WR"
+    },
+    {
+        "name": "DJ Moore",
+        "team": "Carolina Panthers",
+        "position": "WR"
+    },
+    {
+        "name": "Curtis Samuel",
+        "team": "Carolina Panthers",
+        "position": "WR"
+    },
+    {
+        "name": "Tyler Boyd",
+        "team": "Cincinnati Bengals",
+        "position": "WR"
+    },
+    {
+        "name": "Tee Higgins",
+        "team": "Cincinnati Bengals",
+        "position": "WR"
+    },
+    {
+        "name": "A.J. Green",
+        "team": "Cincinnati Bengals",
+        "position": "WR"
+    },
+    {
+        "name": "Allen Robinson II",
+        "team": "Chicago Bears",
+        "position": "WR"
+    },
+    {
+        "name": "Darnell Mooney",
+        "team": "Chicago Bears",
+        "position": "WR"
+    },
+    {
+        "name": "Anthony Miller",
+        "team": "Chicago Bears",
+        "position": "WR"
+    },
+    {
+        "name": "Jarvis Landry",
+        "team": "Cleveland Browns",
+        "position": "WR"
+    },
+    {
+        "name": "Rashard Higgins",
+        "team": "Cleveland Browns",
+        "position": "WR"
+    },
+    {
+        "name": "KhaDarel Hodge",
+        "team": "Cleveland Browns",
+        "position": "WR"
+    },
+    {
+        "name": "Amari Cooper",
+        "team": "Dallas Cowboys",
+        "position": "WR"
+    },
+    {
+        "name": "Michael Gallup",
+        "team": "Dallas Cowboys",
+        "position": "WR"
+    },
+    {
+        "name": "CeeDee Lamb",
+        "team": "Dallas Cowboys",
+        "position": "WR"
+    },
+    {
+        "name": "Jerry Jeudy",
+        "team": "Denver Broncos",
+        "position": "WR"
+    },
+    {
+        "name": "Tim Patrick",
+        "team": "Denver Broncos",
+        "position": "WR"
+    },
+    {
+        "name": "KJ Hamler",
+        "team": "Denver Broncos",
+        "position": "WR"
+    },
+    {
+        "name": "Kenny Golladay",
+        "team": "Detroit Lions",
+        "position": "WR"
+    },
+    {
+        "name": "Marvin Jones Jr.",
+        "team": "Detroit Lions",
+        "position": "WR"
+    },
+    {
+        "name": "Danny Amendola",
+        "team": "Detroit Lions",
+        "position": "WR"
+    },
+    {
+        "name": "Davante Adams",
+        "team": "Green Bay Packers",
+        "position": "WR"
+    },
+    {
+        "name": "Marquez Valdes-Scantling",
+        "team": "Green Bay Packers",
+        "position": "WR"
+    },
+    {
+        "name": "Malik Taylor",
+        "team": "Green Bay Packers",
+        "position": "WR"
+    },
+    {
+        "name": "Will Fuller V",
+        "team": "Houston Texans",
+        "position": "WR"
+    },
+    {
+        "name": "Brandin Cooks",
+        "team": "Houston Texans",
+        "position": "WR"
+    },
+    {
+        "name": "Randall Cobb",
+        "team": "Houston Texans",
+        "position": "WR"
+    },
+    {
+        "name": "T.Y. Hilton",
+        "team": "Indianapolis Colts",
+        "position": "WR"
+    },
+    {
+        "name": "Zach Pascal",
+        "team": "Indianapolis Colts",
+        "position": "WR"
+    },
+    {
+        "name": "Michael Pittman Jr.",
+        "team": "Indianapolis Colts",
+        "position": "WR"
+    },
+    {
+        "name": "DJ Chark Jr.",
+        "team": "Jacksonville Jaguars",
+        "position": "WR"
+    },
+    {
+        "name": "Laviska Shenault Jr.",
+        "team": "Jacksonville Jaguars",
+        "position": "WR"
+    },
+    {
+        "name": "Keelan Cole Sr.",
+        "team": "Jacksonville Jaguars",
+        "position": "WR"
+    },
+    {
+        "name": "Tyreek Hill",
+        "team": "Kansas City Chiefs",
+        "position": "WR"
+    },
+    {
+        "name": "Sammy Watkins",
+        "team": "Kansas City Chiefs",
+        "position": "WR"
+    },
+    {
+        "name": "Demarcus Robinson",
+        "team": "Kansas City Chiefs",
+        "position": "WR"
+    },
+    {
+        "name": "Henry Ruggs III",
+        "team": "Las Vegas Raiders",
+        "position": "WR"
+    },
+    {
+        "name": "Nelson Agholor",
+        "team": "Las Vegas Raiders",
+        "position": "WR"
+    },
+    {
+        "name": "Hunter Renfrow",
+        "team": "Las Vegas Raiders",
+        "position": "WR"
+    },
+    {
+        "name": "Keenan Allen",
+        "team": "Los Angeles Chargers",
+        "position": "WR"
+    },
+    {
+        "name": "Mike Williams",
+        "team": "Los Angeles Chargers",
+        "position": "WR"
+    },
+    {
+        "name": "Jalen Guyton",
+        "team": "Los Angeles Chargers",
+        "position": "WR"
+    },
+    {
+        "name": "Cooper Kupp",
+        "team": "Los Angeles Rams",
+        "position": "WR"
+    },
+    {
+        "name": "Robert Woods",
+        "team": "Los Angeles Rams",
+        "position": "WR"
+    },
+    {
+        "name": "Josh Reynolds",
+        "team": "Los Angeles Rams",
+        "position": "WR"
+    },
+    {
+        "name": "DeVante Parker",
+        "team": "Miami Dolphins",
+        "position": "WR"
+    },
+    {
+        "name": "Preston Williams",
+        "team": "Miami Dolphins",
+        "position": "WR"
+    },
+    {
+        "name": "Isaiah Ford",
+        "team": "Miami Dolphins",
+        "position": "WR"
+    },
+    {
+        "name": "Adam Thielen",
+        "team": "Minnesota Vikings",
+        "position": "WR"
+    },
+    {
+        "name": "Justin Jefferson",
+        "team": "Minnesota Vikings",
+        "position": "WR"
+    },
+    {
+        "name": "Chad Beebe",
+        "team": "Minnesota Vikings",
+        "position": "WR"
+    },
+    {
+        "name": "N'Keal Harry",
+        "team": "New England Patriots",
+        "position": "WR"
+    },
+    {
+        "name": "Damiere Byrd",
+        "team": "New England Patriots",
+        "position": "WR"
+    },
+    {
+        "name": "Jakobi Meyers",
+        "team": "New England Patriots",
+        "position": "WR"
+    },
+    {
+        "name": "Michael Thomas",
+        "team": "New Orleans Saints",
+        "position": "WR"
+    },
+    {
+        "name": "Tre'Quan Smith",
+        "team": "New Orleans Saints",
+        "position": "WR"
+    },
+    {
+        "name": "Marquez Callaway",
+        "team": "New Orleans Saints",
+        "position": "WR"
+    },
+    {
+        "name": "Darius Slayton",
+        "team": "New York Giants",
+        "position": "WR"
+    },
+    {
+        "name": "Sterling Shepard",
+        "team": "New York Giants",
+        "position": "WR"
+    },
+    {
+        "name": "Golden Tate",
+        "team": "New York Giants",
+        "position": "WR"
+    },
+    {
+        "name": "Jamison Crowder",
+        "team": "New York Jets",
+        "position": "WR"
+    },
+    {
+        "name": "Breshad Perriman",
+        "team": "New York Jets",
+        "position": "WR"
+    },
+    {
+        "name": "Denzel Mims",
+        "team": "New York Jets",
+        "position": "WR"
+    },
+    {
+        "name": "Travis Fulgham",
+        "team": "Philadelphia Eagles",
+        "position": "WR"
+    },
+    {
+        "name": "Jalen Reagor",
+        "team": "Philadelphia Eagles",
+        "position": "WR"
+    },
+    {
+        "name": "J.J. Arcega-Whiteside",
+        "team": "Philadelphia Eagles",
+        "position": "WR"
+    },
+    {
+        "name": "JuJu Smith-Schuster",
+        "team": "Pittsburgh Steelers",
+        "position": "WR"
+    },
+    {
+        "name": "Diontae Johnson",
+        "team": "Pittsburgh Steelers",
+        "position": "WR"
+    },
+    {
+        "name": "Chase Claypool",
+        "team": "Pittsburgh Steelers",
+        "position": "WR"
+    },
+    {
+        "name": "Deebo Samuel",
+        "team": "San Francisco 49ers",
+        "position": "WR"
+    },
+    {
+        "name": "Brandon Aiyuk",
+        "team": "San Francisco 49ers",
+        "position": "WR"
+    },
+    {
+        "name": "Kendrick Bourne",
+        "team": "San Francisco 49ers",
+        "position": "WR"
+    },
+    {
+        "name": "Tyler Lockett",
+        "team": "Seattle Seahawks",
+        "position": "WR"
+    },
+    {
+        "name": "DK Metcalf",
+        "team": "Seattle Seahawks",
+        "position": "WR"
+    },
+    {
+        "name": "David Moore",
+        "team": "Seattle Seahawks",
+        "position": "WR"
+    },
+    {
+        "name": "Chris Godwin",
+        "team": "Tampa Bay Buccaneers",
+        "position": "WR"
+    },
+    {
+        "name": "Mike Evans",
+        "team": "Tampa Bay Buccaneers",
+        "position": "WR"
+    },
+    {
+        "name": "Antonio Brown",
+        "team": "Tampa Bay Buccaneers",
+        "position": "WR"
+    },
+    {
+        "name": "A.J. Brown",
+        "team": "Tennessee Titans",
+        "position": "WR"
+    },
+    {
+        "name": "Corey Davis",
+        "team": "Tennessee Titans",
+        "position": "WR"
+    },
+    {
+        "name": "Adam Humphries",
+        "team": "Tennessee Titans",
+        "position": "WR"
+    },
+    {
+        "name": "Terry McLaurin",
+        "team": "Washington Football Team",
+        "position": "WR"
+    },
+    {
+        "name": "Dontrelle Inman",
+        "team": "Washington Football Team",
+        "position": "WR"
+    },
+    {
+        "name": "Isaiah Wright",
+        "team": "Washington Football Team",
+        "position": "WR"
+    },
+    {
+        "name": "Darrell Daniels",
+        "team": "Arizona Cardinals",
+        "position": "TE"
+    },
+    {
+        "name": "Hayden Hurst",
+        "team": "Atlanta Falcons",
+        "position": "TE"
+    },
+    {
+        "name": "Mark Andrews",
+        "team": "Baltimore Ravens",
+        "position": "TE"
+    },
+    {
+        "name": "Tyler Kroft",
+        "team": "Buffalo Bills",
+        "position": "TE"
+    },
+    {
+        "name": "Ian Thomas",
+        "team": "Carolina Panthers",
+        "position": "TE"
+    },
+    {
+        "name": "Drew Sample",
+        "team": "Cincinnati Bengals",
+        "position": "TE"
+    },
+    {
+        "name": "Jimmy Graham",
+        "team": "Chicago Bears",
+        "position": "TE"
+    },
+    {
+        "name": "Austin Hooper",
+        "team": "Cleveland Browns",
+        "position": "TE"
+    },
+    {
+        "name": "Dalton Schultz",
+        "team": "Dallas Cowboys",
+        "position": "TE"
+    },
+    {
+        "name": "Noah Fant",
+        "team": "Denver Broncos",
+        "position": "TE"
+    },
+    {
+        "name": "Albert Okwuegbunam",
+        "team": "Denver Broncos",
+        "position": "TE"
+    },
+    {
+        "name": "T.J. Hockenson",
+        "team": "Detroit Lions",
+        "position": "TE"
+    },
+    {
+        "name": "Robert Tonyan",
+        "team": "Green Bay Packers",
+        "position": "TE"
+    },
+    {
+        "name": "Jordan Akins",
+        "team": "Houston Texans",
+        "position": "TE"
+    },
+    {
+        "name": "Trey Burton",
+        "team": "Indianapolis Colts",
+        "position": "TE"
+    },
+    {
+        "name": "Jack Doyle",
+        "team": "Indianapolis Colts",
+        "position": "TE"
+    },
+    {
+        "name": "Tyler Eifert",
+        "team": "Cincinnati Bengals",
+        "position": "TE"
+    },
+    {
+        "name": "Travis Kelce",
+        "team": "Kansas City Chiefs",
+        "position": "TE"
+    },
+    {
+        "name": "Darren Waller",
+        "team": "Las Vegas Raiders",
+        "position": "TE"
+    },
+    {
+        "name": "Hunter Henry",
+        "team": "Los Angeles Chargers",
+        "position": "TE"
+    },
+    {
+        "name": "Tyler Higbee",
+        "team": "Los Angeles Rams",
+        "position": "TE"
+    },
+    {
+        "name": "Mike Gesicki",
+        "team": "Miami Dolphins",
+        "position": "TE"
+    },
+    {
+        "name": "Irv Smith Jr.",
+        "team": "Minnesota Vikings",
+        "position": "TE"
+    },
+    {
+        "name": "Ryan Izzo",
+        "team": "New England Patriots",
+        "position": "TE"
+    },
+    {
+        "name": "Jared Cook",
+        "team": "New Orleans Saints",
+        "position": "TE"
+    },
+    {
+        "name": "Evan Engram",
+        "team": "New York Giants",
+        "position": "TE"
+    },
+    {
+        "name": "Chris Herndon",
+        "team": "New York Jets",
+        "position": "TE"
+    },
+    {
+        "name": "Dallas Goedert",
+        "team": "Philadelphia Eagles",
+        "position": "TE"
+    },
+    {
+        "name": "Eric Ebron",
+        "team": "Pittsburgh Steelers",
+        "position": "TE"
+    },
+    {
+        "name": "George Kittle",
+        "team": "San Francisco 49ers",
+        "position": "TE"
+    },
+    {
+        "name": "Greg Olsen",
+        "team": "Seattle Seahawks",
+        "position": "TE"
+    },
+    {
+        "name": "Rob Gronkowski",
+        "team": "Tampa Bay Buccaneers",
+        "position": "TE"
+    },
+    {
+        "name": "Jonnu Smith",
+        "team": "Tennessee Titans",
+        "position": "TE"
+    },
+    {
+        "name": "Logan Thomas",
+        "team": "Washington Football Team",
+        "position": "TE"
+    },
+    {
+        "name": "Cardinals Defense",
+        "team": "Arizona Cardinals",
+        "position": "DEF"
+    },
+    {
+        "name": "Falcons Defense",
+        "team": "Atlanta Falcons",
+        "position": "DEF"
+    },
+    {
+        "name": "Ravens Defense",
+        "team": "Baltimore Ravens",
+        "position": "DEF"
+    },
+    {
+        "name": "Bills Defense",
+        "team": "Buffalo Bills",
+        "position": "DEF"
+    },
+    {
+        "name": "Panthers Defense",
+        "team": "Carolina Panthers",
+        "position": "DEF"
+    },
+    {
+        "name": "Bengals Defense",
+        "team": "Cincinnati Bengals",
+        "position": "DEF"
+    },
+    {
+        "name": "Bears Defense",
+        "team": "Chicago Bears",
+        "position": "DEF"
+    },
+    {
+        "name": "Browns Defense",
+        "team": "Cleveland Browns",
+        "position": "DEF"
+    },
+    {
+        "name": "Cowboys Defense",
+        "team": "Dallas Cowboys",
+        "position": "DEF"
+    },
+    {
+        "name": "Broncos Defense",
+        "team": "Denver Broncos",
+        "position": "DEF"
+    },
+    {
+        "name": "Lions Defense",
+        "team": "Detroit Lions",
+        "position": "DEF"
+    },
+    {
+        "name": "Packers Defense",
+        "team": "Green Bay Packers",
+        "position": "DEF"
+    },
+    {
+        "name": "Texans Defense",
+        "team": "Houston Texans",
+        "position": "DEF"
+    },
+    {
+        "name": "Colts Defense",
+        "team": "Indianapolis Colts",
+        "position": "DEF"
+    },
+    {
+        "name": "Jaguars Defense",
+        "team": "Jacksonville Jaguars",
+        "position": "DEF"
+    },
+    {
+        "name": "Chiefs Defense",
+        "team": "Kansas City Chiefs",
+        "position": "DEF"
+    },
+    {
+        "name": "Raiders Defense",
+        "team": "Las Vegas Raiders",
+        "position": "DEF"
+    },
+    {
+        "name": "Chargers Defense",
+        "team": "Los Angeles Chargers",
+        "position": "DEF"
+    },
+    {
+        "name": "Rams Defense",
+        "team": "Los Angeles Rams",
+        "position": "DEF"
+    },
+    {
+        "name": "Dolphins Defense",
+        "team": "Miami Dolphins",
+        "position": "DEF"
+    },
+    {
+        "name": "Vikings Defense",
+        "team": "Minnesota Vikins",
+        "position": "DEF"
+    },
+    {
+        "name": "Patriots Defense",
+        "team": "New England Patriots",
+        "position": "DEF"
+    },
+    {
+        "name": "Saints Defense",
+        "team": "New Orleans Saints",
+        "position": "DEF"
+    },
+    {
+        "name": "Giants Defense",
+        "team": "New York Giants",
+        "position": "DEF"
+    },
+    {
+        "name": "Jets Defense",
+        "team": "New York Jets",
+        "position": "DEF"
+    },
+    {
+        "name": "Eagles Defense",
+        "team": "Philadelphia Eagles",
+        "position": "DEF"
+    },
+    {
+        "name": "Steelers Defense",
+        "team": "Pittsburgh Steelers",
+        "position": "DEF"
+    },
+    {
+        "name": "49ers Defense",
+        "team": "San Francisco 49ers",
+        "position": "DEF"
+    },
+    {
+        "name": "Seahawks Defense",
+        "team": "Seattle Seahawks",
+        "position": "DEF"
+    },
+    {
+        "name": "Buccaneers Defense",
+        "team": "Tampa Bay Buccaneers",
+        "position": "DEF"
+    },
+    {
+        "name": "Titans Defense",
+        "team": "Tennessee Titans",
+        "position": "DEF"
+    },
+    {
+        "name": "Football Team Defense",
+        "team": "Washington Football Team",
+        "position": "DEF"
     }
 ]
