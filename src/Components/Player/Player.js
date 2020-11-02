@@ -13,11 +13,12 @@ const Player = props => {
         if(+teamOvrUnd <= 10){
             value -= .5;
         } else if(+teamOvrUnd >= 20 && +teamOvrUnd < 30){
+            value += .25;
+        } else if(+teamOvrUnd >= 30){
             value += .5;
-        } else if(+teamOvrUnd > 30){
-            value += .75;
         }
 
+        value = value.toFixed(2);
         setPlayerValue(value);
     }
 
