@@ -16,8 +16,8 @@ export default () => {
                 <div onClick={() => setPosition('DEF')}>DEF</div>
             </nav>
             <section className='player-display'>
-                {players.filter(e => e.position === position).map((player, i) => (
-                    <Player key={i} player={player}/>
+                {players.filter(e => e.position === position).map(player => (
+                    <Player key={player.name} player={player}/>
                 ))}
             </section>
         </section>
