@@ -1,6 +1,6 @@
 .playerlist {
-    height: 600px;
-    width: 500px;
+    height: 800px;
+    width: 700px;
     border: 2px solid black;
 }
 
@@ -12,6 +12,12 @@
 }
 
 .player-display {
-    max-height: 570px;
+    max-height: 770px;
     overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.player-display::-webkit-scrollbar {
+    display: none;
 }

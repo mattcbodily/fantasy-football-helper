@@ -1,3 +1,17 @@
 .player {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.player input {
+    width: 100px;
+}
+
+.player-name {
+    margin-right: 10px;
+}
+
+.player-team {
+    color: gray;
 }
