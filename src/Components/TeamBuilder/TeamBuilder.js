@@ -1,13 +1,25 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {connect} from 'react-redux';
 import './TeamBuilder.css';
 
 const TeamBuilder = props => {
     let [salary, setSalary] = useState(''),
         [targetValue, setTargetValue] = useState(''),
+        [actualValue, setActualValue] = useState(''),
         [editView, setEditView] = useState(true);
 
-    console.log(props);
+    useEffect(() => {
+        if(salary){
+            props.team.map(e => {
+                setSalary(salary - e.cost);
+            })
+        }
+
+        if(targetValue && props.team.length){
+            let average = props.team.reduce((acc, curr) => acc + curr.value, 0) / props.team.length;
+            setActualValue(average);
+        }
+    }, [props.team])
 
     return (
         <section className='team-builder'>
@@ -24,17 +36,19 @@ const TeamBuilder = props => {
                     <>
                         <span>${salary}</span>
                         <span>{targetValue}</span>
+                        <span>{actualValue}</span>
                         <button onClick={() => setEditView(true)}>Edit</button>
                     </>
                 )}
                 <div>QB: {props.team.find(e => e.position === 'QB')?.name || 'Select a QB'}</div>
-                <div>RB: </div>
-                <div>RB: </div>
-                <div>WR: </div>
-                <div>WR: </div>
-                <div>WR: </div>
+                {props.team.filter(e => e.position === 'RB').map(player => (
+                    <div>RB: {player.name}</div>
+                ))}
+                {props.team.filter(e => e.position === 'WR').map(player => (
+                    <div>WR: {player.name}</div>
+                ))}
                 <div>TE: {props.team.find(e => e.position === 'TE')?.name || 'Select a TE'}</div>
-                <div>FLEX: </div>
+                <div>FLEX: {props.team.find(e => e.position === 'FLEX')?.name || 'Select a FLEX'}</div>
                 <div>DEF: {props.team.find(e => e.position === 'DEF')?.name || 'Select a DEF'}</div>
             </section>
         </section>

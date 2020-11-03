@@ -10,14 +10,30 @@ const Player = props => {
         [modalView, setModalView] = useState(false);
 
     const addPlayer = () => {
-        const {player} = props;
+        const {player} = props,
+              newPlayer = {
+                  name: player.name,
+                  team: player.team,
+                  cost: +cost,
+                  value: +playerValue
+              }
 
-        let newPlayer = {
-            name: player.name,
-            team: player.team,
-            position: player.position,
-            cost: +cost,
-            value: +playerValue
+        if(player.position === 'WR'){
+            let filteredWR = props.team.filter(e => e.position === 'WR');
+            if(filteredWR.length === 3){
+                newPlayer.position = 'FLEX'
+            } else {
+                newPlayer.position = 'WR'
+            }
+        } else if(player.position === 'RB'){
+            let filteredRB = props.team.filter(e => e.position === 'RB');
+            if(filteredRB.length === 2){
+                newPlayer.position = 'FLEX'
+            } else {
+                newPlayer.position = 'RB'
+            }
+        } else {
+            newPlayer.position = player.position;
         }
 
         props.addPlayer(newPlayer);
@@ -42,4 +58,6 @@ const Player = props => {
     )
 }
 
-export default connect(null, {addPlayer})(Player);
+const mapStateToProps = reduxState => reduxState;
+
+export default connect(mapStateToProps, {addPlayer})(Player);
