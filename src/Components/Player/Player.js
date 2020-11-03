@@ -11,7 +11,12 @@ const Player = props => {
             <p className='player-name'>{props.player.name}</p>
             <p className='player-team'>{props.player.team}</p>
             {playerValue
-                ? <p>{playerValue}</p>
+                ? (
+                    <>
+                        <p>{playerValue}</p>
+                        <button>Add to Team</button>
+                    </>
+                )
                 : <button onClick={() => setModalView(true)}>Get Value</button>}
             {modalView
                 ? <ValueModal valueFn={setPlayerValue} modalFn={setModalView}/>

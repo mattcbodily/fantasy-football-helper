@@ -3,7 +3,7 @@ import Player from '../Player/Player';
 import players from '../../players.json';
 import './PlayerList.css';
 
-export default () => {
+const PlayerList = () => {
     let [position, setPosition] = useState('QB');
 
     return (
@@ -23,3 +23,5 @@ export default () => {
         </section>
     )
 }
+
+export default PlayerList;
