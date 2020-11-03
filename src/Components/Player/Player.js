@@ -15,6 +15,7 @@ const Player = props => {
         let newPlayer = {
             name: player.name,
             team: player.team,
+            position: player.position,
             cost: +cost,
             value: +playerValue
         }
