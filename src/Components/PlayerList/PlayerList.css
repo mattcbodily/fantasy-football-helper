@@ -1,6 +1,6 @@
 .playerlist {
-    height: 800px;
-    width: 750px;
+    height: 600px;
+    width: 550px;
     border: 2px solid black;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .player-display {
-    max-height: 770px;
+    max-height: 570px;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
