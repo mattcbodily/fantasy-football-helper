@@ -40,16 +40,24 @@ const TeamBuilder = props => {
                         <button onClick={() => setEditView(true)}>Edit</button>
                     </>
                 )}
-                <div>QB: {props.team.find(e => e.position === 'QB')?.name || 'Select a QB'}</div>
+                {props.team.filter(e => e.position === 'QB').map(player => (
+                    <div>QB: {player.name}</div>
+                ))}
                 {props.team.filter(e => e.position === 'RB').map(player => (
                     <div>RB: {player.name}</div>
                 ))}
                 {props.team.filter(e => e.position === 'WR').map(player => (
                     <div>WR: {player.name}</div>
                 ))}
-                <div>TE: {props.team.find(e => e.position === 'TE')?.name || 'Select a TE'}</div>
-                <div>FLEX: {props.team.find(e => e.position === 'FLEX')?.name || 'Select a FLEX'}</div>
-                <div>DEF: {props.team.find(e => e.position === 'DEF')?.name || 'Select a DEF'}</div>
+                {props.team.filter(e => e.position === 'TE').map(player => (
+                    <div>TE: {player.name}</div>
+                ))}
+                {props.team.filter(e => e.position === 'FLEX').map(player => (
+                    <div>FLEX: {player.name}</div>
+                ))}
+                {props.team.filter(e => e.position === 'DEF').map(player => (
+                    <div>DEF: {player.name}</div>
+                ))}
             </section>
         </section>
     )

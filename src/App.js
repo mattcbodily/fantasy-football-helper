@@ -6,8 +6,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <PlayerList />
-      <TeamBuilder />
+      <header>
+        <h1>Build Your Team</h1>
+      </header>
+      <section className='main-flex'>
+        <PlayerList />
+        <TeamBuilder />
+      </section>
     </div>
   );
 }
