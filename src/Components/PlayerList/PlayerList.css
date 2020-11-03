@@ -1,7 +1,13 @@
 .playerlist {
     height: 600px;
     width: 550px;
+    box-sizing: border-box;
+    padding: 5px;
     border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 1px black;
+    background: #D00321;
+    overflow: hidden;
 }
 
 .position-navigation {
@@ -9,6 +15,10 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.position-navigation div {
+    cursor: pointer;
 }
 
 .player-display {

@@ -1,5 +1,14 @@
 .team-builder {
     height: 600px;
     width: 550px;
+    box-sizing: border-box;
+    padding: 5px;
     border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 1px black;
+    background: #D00321;
+}
+
+.target-value {
+    margin: 0 10px;
 }

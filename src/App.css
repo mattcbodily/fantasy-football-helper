@@ -1,9 +1,17 @@
+h1 {
+  margin: 0;
+}
+
 .App {
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 20px;
   text-align: center;
+  background: #2D3142;
 }
 
 .App header {
-  height: 8vh;
+  height: 5vh;
 }
 
 .main-flex {
