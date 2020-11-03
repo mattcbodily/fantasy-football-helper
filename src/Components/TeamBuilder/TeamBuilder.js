@@ -16,7 +16,7 @@ const TeamBuilder = props => {
 
         if(targetValue && props.team.length){
             let average = props.team.reduce((acc, curr) => acc + curr.value, 0) / props.team.length;
-            setActualValue(average);
+            setActualValue(average.toFixed(2));
         }
     }, [props.team])
 
