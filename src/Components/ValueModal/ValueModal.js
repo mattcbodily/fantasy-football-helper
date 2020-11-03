@@ -2,13 +2,12 @@ import React, {useState} from 'react';
 import './ValueModal.css';
 
 const ValueModal = props => {
-    let [cost, setCost] = useState(''),
-        [projPts, setProjPts] = useState(''),
+    let [projPts, setProjPts] = useState(''),
         [teamOvrUnd, setTeamOvrUnd] = useState('');
 
         const calculateValue = (e) => {
             e.preventDefault();
-            let value = +projPts / (+cost / 1000);
+            let value = +projPts / (+props.cost / 1000);
     
             if(+teamOvrUnd <= 10){
                 value -= .5;
@@ -26,7 +25,7 @@ const ValueModal = props => {
     return (
         <section className='modal-backdrop'>
             <form className='value-modal'>
-                <input value={cost} placeholder='Cost' onChange={e => setCost(e.target.value)}/>                <input value={projPts} placeholder='Projected Points' onChange={e => setProjPts(e.target.value)}/>
+                <input value={props.cost} placeholder='Cost' onChange={e => props.costFn(e.target.value)}/>                <input value={projPts} placeholder='Projected Points' onChange={e => setProjPts(e.target.value)}/>
                 <input value={teamOvrUnd} placeholder='Team Over/Under' onChange={e => setTeamOvrUnd(e.target.value)}/>
                 <button onClick={calculateValue}>Submit</button>
             </form>

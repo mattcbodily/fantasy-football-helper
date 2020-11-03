@@ -1,10 +1,26 @@
 import React, {useState} from 'react';
+import {connect} from 'react-redux';
 import ValueModal from '../ValueModal/ValueModal';
+import {addPlayer} from '../../redux/reducer';
 import './Player.css';
 
 const Player = props => {
-    let [playerValue, setPlayerValue] = useState(''),
+    let [cost, setCost] = useState(''),
+        [playerValue, setPlayerValue] = useState(''),
         [modalView, setModalView] = useState(false);
+
+    const addPlayer = () => {
+        const {player} = props;
+
+        let newPlayer = {
+            name: player.name,
+            team: player.team,
+            cost: +cost,
+            value: +playerValue
+        }
+
+        props.addPlayer(newPlayer);
+    }
 
     return (
         <section className='player'>
@@ -14,15 +30,15 @@ const Player = props => {
                 ? (
                     <>
                         <p>{playerValue}</p>
-                        <button>Add to Team</button>
+                        <button onClick={addPlayer}>Add to Team</button>
                     </>
                 )
                 : <button onClick={() => setModalView(true)}>Get Value</button>}
             {modalView
-                ? <ValueModal valueFn={setPlayerValue} modalFn={setModalView}/>
+                ? <ValueModal cost={cost} costFn={setCost} valueFn={setPlayerValue} modalFn={setModalView}/>
                 : null}
         </section>
     )
 }
 
-export default Player;
+export default connect(null, {addPlayer})(Player);
