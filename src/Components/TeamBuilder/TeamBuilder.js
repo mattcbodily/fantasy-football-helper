@@ -27,22 +27,52 @@ const TeamBuilder = props => {
                 <span className='target-value'>Target Value: {targetValue}</span>
                 <span className='actual-value'>Actual Value: {actualValue}</span>
                 {props.team.filter(e => e.position === 'QB').map(player => (
-                    <div className='player'>QB: {player.name}</div>
+                    <div className='player'>
+                        <span>QB: {player.name}</span>
+                        <span className='player-team'>{player.team}</span>
+                        <span>Cost: ${player.cost}</span>
+                        <span>Value: {player.value}</span>
+                    </div>
                 ))}
                 {props.team.filter(e => e.position === 'RB').map(player => (
-                    <div className='player'>RB: {player.name}</div>
+                    <div className='player'>
+                        <span>RB: {player.name}</span>
+                        <span>{player.team}</span>
+                        <span>{player.cost}</span>
+                        <span>{player.value}</span>
+                    </div>
                 ))}
                 {props.team.filter(e => e.position === 'WR').map(player => (
-                    <div className='player'>WR: {player.name}</div>
+                    <div className='player'>
+                        <span>WR: {player.name}</span>
+                        <span>{player.team}</span>
+                        <span>{player.cost}</span>
+                        <span>{player.value}</span>
+                    </div>
                 ))}
                 {props.team.filter(e => e.position === 'TE').map(player => (
-                    <div className='player'>TE: {player.name}</div>
+                    <div className='player'>
+                        <span>TE: {player.name}</span>
+                        <span>{player.team}</span>
+                        <span>{player.cost}</span>
+                        <span>{player.value}</span>
+                    </div>
                 ))}
                 {props.team.filter(e => e.position === 'FLEX').map(player => (
-                    <div className='player'>FLEX: {player.name}</div>
+                    <div className='player'>
+                        <span>FLEX: {player.name}</span>
+                        <span>{player.team}</span>
+                        <span>{player.cost}</span>
+                        <span>{player.value}</span>
+                    </div>
                 ))}
                 {props.team.filter(e => e.position === 'DEF').map(player => (
-                    <div className='player'>DEF: {player.name}</div>
+                    <div className='player'>
+                        <span>DEF: {player.name}</span>
+                        <span>{player.team}</span>
+                        <span>{player.cost}</span>
+                        <span>{player.value}</span>
+                    </div>
                 ))}
             </section>
         </section>
