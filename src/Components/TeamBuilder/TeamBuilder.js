@@ -44,45 +44,45 @@ const TeamBuilder = props => {
                 {props.team.filter(e => e.position === 'RB').map(player => (
                     <div className='player'>
                         <span>RB: {player.name}</span>
-                        <span>{player.team}</span>
-                        <span>{player.cost}</span>
-                        <span>{player.value}</span>
+                        <span className='player-team'>{player.team}</span>
+                        <span>Cost: ${player.cost}</span>
+                        <span>Value: {player.value}</span>
                         <span onClick={() => removePlayer(player.cost, player.name)}>X</span>
                     </div>
                 ))}
                 {props.team.filter(e => e.position === 'WR').map(player => (
                     <div className='player'>
                         <span>WR: {player.name}</span>
-                        <span>{player.team}</span>
-                        <span>{player.cost}</span>
-                        <span>{player.value}</span>
+                        <span className='player-team'>{player.team}</span>
+                        <span>Cost: ${player.cost}</span>
+                        <span>Value: {player.value}</span>
                         <span onClick={() => removePlayer(player.cost, player.name)}>X</span>
                     </div>
                 ))}
                 {props.team.filter(e => e.position === 'TE').map(player => (
                     <div className='player'>
                         <span>TE: {player.name}</span>
-                        <span>{player.team}</span>
-                        <span>{player.cost}</span>
-                        <span>{player.value}</span>
+                        <span className='player-team'>{player.team}</span>
+                        <span>Cost: ${player.cost}</span>
+                        <span>Value: {player.value}</span>
                         <span onClick={() => removePlayer(player.cost, player.name)}>X</span>
                     </div>
                 ))}
                 {props.team.filter(e => e.position === 'FLEX').map(player => (
                     <div className='player'>
                         <span>FLEX: {player.name}</span>
-                        <span>{player.team}</span>
-                        <span>{player.cost}</span>
-                        <span>{player.value}</span>
+                        <span className='player-team'>{player.team}</span>
+                        <span>Cost: ${player.cost}</span>
+                        <span>Value: {player.value}</span>
                         <span onClick={() => removePlayer(player.cost, player.name)}>X</span>
                     </div>
                 ))}
                 {props.team.filter(e => e.position === 'DEF').map(player => (
                     <div className='player'>
                         <span>DEF: {player.name}</span>
-                        <span>{player.team}</span>
-                        <span>{player.cost}</span>
-                        <span>{player.value}</span>
+                        <span className='player-team'>{player.team}</span>
+                        <span>Cost: ${player.cost}</span>
+                        <span>Value: {player.value}</span>
                         <span onClick={() => removePlayer(player.cost, player.name)}>X</span>
                     </div>
                 ))}
